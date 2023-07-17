@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <form class="form">
+        <h1>Registarstion Form</h1>
+        <div class="firstName">
+            <p>First Name</p>
+            <input type="text" data-key="firstName"  placeholder="firstName" class="input">
+            <span class="emptyfield">*please fill this field</span>
+            <span class="errormessage">Name must only contain alphabets</span>
+        </div>
+
+        <div class="lastName">
+            <p>Last Name</p>
+            <input type="text" data-key="lastName" placeholder="lastName" class="input">
+            <span class="emptyfield">*please fill this field</span>
+            <span class="errormessage">Name must only contain alphabets</span>
+        </div>
+
+        <div class="email">
+            <p>Email id</p>
+            <input type="text" data-key="email" placeholder="Email" class="input">
+            <span class="emptyfield">*please fill this field</span>
+            <span class="errormessage">Invalid Email</span>
+        </div>
+
+        <div class="password">
+            <p>Password</p>
+            <input type="password" data-key="password" placeholder="password" class="input password-img">
+            <i class="bi bi-eye-slash" id="togglePassword"></i>
+            <ul class="errormessage list">
+                <li>password must contain atleaset 8 charcters</li>
+                <li>password must atleast contain one lower case</li>
+                <li>password must atleast contain one upper case</li>
+                <li>password must atleast contain one spaecial charcter (@#$%^&*!')</li>
+            </ul>
+            <span class="emptyfield">*please fill this field</span>
+        </div>
+        <button class="btn"> create account</button>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
