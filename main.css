@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.errormessage,.emptyfield
+{
+    color: red;
+}
+
+.input
+{
+    display: block;
+    height: 40px;
+    width: 400px;
+    font-size: 20px;
+}
+input::placeholder
+{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.form
+{
+    width:400px;
+}
+.list
+{
+    padding-left: 15px;
+}
+.btn{
+    margin-top: 20px;
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+
+}
+.displayNone
+{
+    display: none;
+}
+#togglePassword
+{
+    position: relative;
+    top: -35px;
+    left:370px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.error{
+border: solid 2px red;
+
+}
+
+
