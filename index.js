@@ -136,7 +136,7 @@ button.addEventListener('click',(event)=>{
     if(firstflag && lastflag && emailflag && passwordflag)
     {
         firstEvent.value=lastEvent.value=emailEvent.value=passwordEvent.value="";
-        window.location.href="file:///D:/Form%20validation%20with%20Regex/success.html";
+        window.location.href="https://muralidarreddy789.github.io/success"
     }
     
 });
